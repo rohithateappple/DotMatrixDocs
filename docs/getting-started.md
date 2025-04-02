@@ -104,7 +104,7 @@ Flipbook variant of the Dot Matrix shader uses pre-defined altases or flipbooks 
 
     ![alt text](<images/Screenshot 2025-04-02 101509.png>)
 
-## Using Scene Color as Background
+## Using Scene Color as Background 
 
 ![alt text](<images/Screenshot 2025-03-24 153145.png>)
 
