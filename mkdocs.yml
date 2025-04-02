@@ -1,0 +1,65 @@
+site_name: Dot Matrix Documentation
+site_url: https://mydomain.org/DotMatrixDocs
+
+theme:
+  name: material
+  logo: images/DotMatrixLogo.png
+  favicon: images/DotMatrixFavicon.ico
+  palette:
+    scheme: slate  
+    primary: black
+    accent: green
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - content.images.zoom  
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs
+    - content.code.copy
+
+nav:
+  - Welcome: index.md
+  - Getting Started: getting-started.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.extra
+
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+plugins:
+   - glightbox
+   - search
+   
+extra_css:
+  - overrides/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rohithateappple
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@turingcode
+    - icon: fontawesome/solid/envelope
+      link: mailto:rohithateapple@email.com
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/QZRTJ6eC
+
+
+
